@@ -15,4 +15,4 @@ if __name__ == "__main__":
         print("{} arguments:".format(arg))
         """" printing args with their index """
     for i in range(arg):
-        print("{} : {}".format(i+1, sys.argv[i+1]))
+        print("{} : {}".format(i + 1, sys.argv[i + 1]))
