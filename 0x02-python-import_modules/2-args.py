@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-  
-    """Print the number of and list of arguments."""
+   """Print the number of and list of arguments."""
     import sys
-    
     """removed the name of the script at index 0"""
     arg = len(sys.argv) - 1  
     if arg == 0:
