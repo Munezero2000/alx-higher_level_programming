@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""print the sum of the entered integers"""
 if __name__ == "__main__":
     
     import sys
