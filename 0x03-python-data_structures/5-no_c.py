@@ -2,5 +2,5 @@
 
 
 def no_c(my_string):
-    news = [x for x in my_string if x != "c" or x != "C"]
-    return("".join(news))
+    copy_str = [x for x in my_string if x != 'c' or x != 'C']
+    return ("".join(copy_str))
