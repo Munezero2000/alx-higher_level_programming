@@ -2,6 +2,5 @@
 
 
 def no_c(my_string):
-    for i in range(len(my_string)):
-        if my_string[i] == "c" or my_string[i] == "C":
-            return(my_string.join('')
+    news = [x for x in my_string if x != "c" or x != "C"]
+    return("".join(news))
